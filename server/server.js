@@ -22,7 +22,7 @@ await connectCloudinary();
 // Simple CORS configuration
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://ngo-phi-hazel.vercel.app",
   credentials: true,
   allowedHeaders: ["Content-Type", "Authorization"]
 }));
