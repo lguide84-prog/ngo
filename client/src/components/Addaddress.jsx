@@ -146,7 +146,7 @@ function Addaddress() {
 
   return (
     <>
-      <div className="mt-10 pb-16">
+      <div className="mt-10 pb-16 px-6 md:px-16 lg:px-24 xl:px-28" >
         <p className="text-2xl md:text-3xl text-gray-500">
           Add Shipping <span className="font-semibold text-primary">Address</span>
         </p>

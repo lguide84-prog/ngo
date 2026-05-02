@@ -37,7 +37,7 @@ const {setIsSeler,axios,navigate,seller} =useAppContext();
         <>
             <div className="flex items-center justify-between px-4 md:px-8 border-b border-gray-300 py-3 bg-white ">
                 <Link to='/' >
-                  <img src="/logo1.png" className="h-15 w-15"/>
+                  <img src="/image.png" className="h-15 w-15 lg:h-15 lg:w-65"/>
                 </Link>
                 <div className="flex items-center gap-5 text-gray-500">
                     <p>Hi! Seller </p>
